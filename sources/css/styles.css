@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #EBEBEB;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+    letter-spacing: 1px;
+}
+header {
+    background-color: white;
+    display: flex;
+    position: relative;
+    height: 100px;
+}
+
+.profile {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    border-right: 3px solid #EBEBEB;
+}
+
+.profile-icon {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logoBlock {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.profile-info{
+    float: right;
+    font-size: 20px;
+    position: relative;
+    margin-left: 5%;
+}
+
+main {
+    position: relative;
+    display: flex;
+}
+
+nav {
+    margin-left: 7%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navBlock{
+    position: absolute;
+    width: 75%;
+    margin-left: 25%;
+    height: 100%;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+    font-size: 20px;
+}
+
+.navbar {
+    position: relative;
+    /*position: fixed; Только попробовать!*/
+    margin-top: 7%;
+    margin-left: 5%;
+    width: 20%;
+    border-right: 3px solid #EBEBEB;
+}
+
+.searchBlock {
+    background-color: white;
+    border-radius: 12px;
+    height: 40px;
+    display: flex;
+    position: relative;
+}
+.searchBlock input {
+    height: 40px;
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.searchLogo {
+    width: 15%;
+    position:relative;
+ }
+.searchLogo img {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainSortFilterBlock {
+    margin-top: 5%;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.mainSortFilterBlock h3{
+    margin-top: 3%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sortBlock {
+    padding: 5%;
+    width: 100%;
+    position: relative;
+}
+
+.sortBlock input{
+    border: 2px solid #C4C4C4;
+    text-align: center;
+}
+
+.sortBlock input:hover {
+    border: 2px solid #5b5a63;
+}
+
+.priceInput {
+    margin-top: 5%;
+    display: flex;
+}
+
+.priceInput p {
+    margin: 5%;
+    font-size: 15px;
+}
+
+.priceInput input {
+    width: 65%;
+    height: 112%;
+    border-radius: 5px;
+}
+
+.costRange {
+    position: relative;
+    display: flex;
+    height: 16px;
+    margin-top: 5%;
+}
+
+.usingRange {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: #7270d4;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.uselessRange1 {
+    position: absolute;
+    height: 6px;
+    width: 21%;
+    margin-left: -1px;
+    background-color: #C4C4C4;
+    top:50%;
+    transform: translate(-0%, -50%);
+}
+
+.pointRange1 {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #7270d4;
+    left: 20%;
+}
+
+.pointRange2 {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #7270d4;
+    left: 80%;
+    z-index: 1;
+}
+
+.uselessRange2 {
+    position: absolute;
+    height: 6px;
+    width: 20%;
+    background-color: #C4C4C4;
+    top:50%;
+    transform: translate(-0%, -50%);
+    left: 81%;
+}
+
+.filterBlock {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.filterBlock p {
+    margin-left: 1%;
+}
+
+.filter {
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+.filter .filterLA {
+    background-color: black;
+    margin-top: 3%;
+    color: black;
+    height: 2px;
+    width: 5%;
+    transition: .5s;
+}
+
+.filter .filterRA {
+    background-color: black;
+    margin-top: 3%;
+    margin-left: -1%;
+    color: black;
+    height: 2px;
+    width: 5%;
+    transition: .5s;
+}
+
+/*.filter1:active > .filterLA, .filter2:active > .filterLA{*/
+/*    background-color: black;*/
+/*    margin-top: 3%;*/
+/*    height: 2px;*/
+/*    width: 5.5%;*/
+/*    animation-name: rotation1;    !*Тестовый код!!!*!*/
+/*    animation-duration: 80ms;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: linear;*/
+/*}*/
+
+/*.filter1:active > .filterRA, .filter2:active > .filterRA{*/
+/*    background-color: black;*/
+/*    margin-top: 3%;*/
+/*    height: 2px;*/
+/*    width: 5.5%;*/
+/*    margin-left: -2%;*/
+/*    animation-name: rotation;    !*Тестовый код!!!*!*/
+/*    animation-duration: 80ms;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-timing-function: linear;*/
+/*}*/
+
+/*@keyframes rotation { !*Тестовый код!!!*!*/
+/*    0% {*/
+/*        transform:rotate(0deg);*/
+/*    }*/
+/*    100% {*/
+/*        transform:rotate(-45deg);*/
+/*    }*/
+/*}*/
+
+/*@keyframes rotation1 { !*Тестовый код!!!*!*/
+/*    0% {*/
+/*        transform:rotate(0deg);*/
+/*    }*/
+/*    100% {*/
+/*        transform:rotate(45deg);*/
+/*    }*/
+/*}*/
+
+.shares {
+    margin-left: 5%;
+    /*margin-left: 30%; если navbar fixed */
+    margin-right: 5%;
+    width: 65%;
+    position: relative;
+
+}
+
+.types {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 5%;
+    font-size: 15px;
+    letter-spacing: 0;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+.types p {
+    color: #4C7DDC;
+    margin-right: 1%;
+}
+
+.type {
+    position: relative;
+    text-align: center;
+}
+
+.type p {
+    text-align: center;
+}
+
+.typeName {
+    margin-left: 12%;
+    width: 12%;
+}
+
+.typeForMonth {
+    width: 28%;
+}
+
+.typeForDay {
+    width: 28%;
+}
+
+.typeCost {
+    width: 20%;
+}
+
+.share {
+    position: relative;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px #C4C4C4;
+    padding: 1%;
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.shareIcon {
+    position: relative;
+    width: 12%;
+}
+
+.shareIcon img{
+    width: 100%;
+}
+
+.shareInfo {
+    position: relative;
+    text-align: center;
+    width: 12%;
+}
+
+.shareInfo p {
+    margin-top: 3%;
+}
+
+.shareName {
+    font-weight: 700;
+}
+
+.forMonth {
+    width: 28%;
+    position: relative;
+    text-align: center;
+}
+
+.forDay {
+    position: relative;
+    text-align: center;
+    width: 28%;
+}
+
+.cost {
+    position: relative;
+    text-align: center;
+    width: 20%;
+}
+
+.number {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    font-weight: 700;
+}
+
+.positive{
+    color: #00BC00;
+}
+
+.negative {
+    color: #FF0000;
+}
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+}

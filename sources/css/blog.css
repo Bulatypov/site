@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #EBEBEB;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+    letter-spacing: 1px;
+}
+header {
+    background-color: white;
+    display: flex;
+    position: relative;
+    height: 100px;
+}
+
+.profile {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    border-right: 3px solid #EBEBEB;
+}
+
+.profile-icon {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logoBlock {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.profile-info{
+    float: right;
+    font-size: 20px;
+    position: relative;
+    margin-left: 5%;
+}
+
+main {
+    position: relative;
+    display: flex;
+}
+
+nav {
+    margin-left: 7%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navBlock{
+    position: absolute;
+    width: 75%;
+    margin-left: 25%;
+    height: 100%;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+    font-size: 20px;
+}
+
+.recommendations {
+    position: relative;
+    /*position: fixed; Только попробовать!*/
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 20%;
+    border-right: 3px solid #EBEBEB;
+}
+
+.searchBlock {
+    background-color: white;
+    border-radius: 12px;
+    height: 40px;
+    display: flex;
+    position: relative;
+}
+.searchBlock input {
+    height: 40px;
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.searchLogo {
+    width: 15%;
+    position:relative;
+}
+
+.searchLogo img {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.uCanLikeIt {
+    width: 100%;
+    margin-top: 5%;
+    padding: 2%;
+    position: relative;
+    background-color: white;
+    border-radius: 12px;
+
+}
+
+.uCanLikeIt h2 {
+    margin: 5%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.recommendation {
+    position: relative;
+    display: flex;
+    margin-top: 1%;
+    height: 15%;
+    width: 100%;
+    padding: 5%;
+}
+
+.recAvatar {
+    height: 100%;
+    width: 20%;
+}
+
+.recAvatar img {
+    width: 80%;
+}
+
+.recComp {
+    color: #646464;
+}
+
+.postsBlock {
+    position: relative;
+    width: 65%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.writePost {
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    border-radius: 12px;
+    padding: 1%;
+}
+
+.writerIcon {
+    position: relative;
+    height: 100%;
+    width: 5%;
+    /*background-color: red;*/
+}
+
+.writerIcon img {
+    position: relative;
+    width: 80%;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, 5%);
+}
+
+.writePost input {
+    position: relative;
+    width: 60%;
+    margin-left: 1%;
+    /*background-color: green;*/
+    border:none;
+    font-size: 18px;
+    outline: none;
+}
+
+.addMedia {
+    position: relative;
+    width: 15%;
+    /*background-color: blue;*/
+}
+
+.mediaTypes {
+    position: relative;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: red;*/
+}
+
+.addMedia a {
+    text-decoration: none;
+    margin-left: 3%;
+    text-align: center;
+}
+
+.publish {
+    width: 20%;
+    /*background-color: yellow;*/
+}
+
+.publishButton {
+    position: relative;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+    background-color: #4C7DDC;
+
+}
+
+.publishButton a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    top: 20%;
+}
+
+.post {
+    margin-top: 3%;
+    position: relative;
+    background-color: white;
+    width: 100%;
+    border-radius: 12px;
+    padding: 2%;
+}
+
+.postMainInfo {
+    position: relative;
+    display: flex;
+}
+
+.authorImage {
+    position: relative;
+    width: 8%;
+}
+
+.authorImage img {
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.authorMainInfo {
+    position: relative;
+    width: 100%;
+    margin-left: 2%;
+}
+
+.theFirstRow {
+    margin-top: 1%;
+    position: relative;
+    display: flex;
+}
+
+.authorName {
+
+    position: relative;
+    padding-right: 4%;
+    border-right: 1px solid black;
+    font-size: 18px;
+}
+
+.postTime {
+    position: relative;
+    margin-left: 4%;
+    color: #646464;
+}
+
+.authorCompany {
+    position: relative;
+    margin-top: 1%;
+    color: #646464;
+}
+
+.postMain {
+    position: relative;
+    font-size: 15px;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+
+.mainImage {
+    position: relative;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.mainImage img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+.postFooter {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    font-weight: 650;
+    margin-bottom: 2%;
+}
+
+.postRating {
+    position: relative;
+    margin-left: 9%;
+    display: flex;
+    width: 20%;
+}
+
+.postRating a {
+    width: 15%;
+}
+
+.postRating img {
+    width: 100%;
+}
+
+.postRating p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.postComments {
+    position: relative;
+    width: 10%;
+}
+
+.postComments a {
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.postComments img {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.postComments p {
+    position: relative;
+    text-align: right;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+}
