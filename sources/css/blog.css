@@ -371,5 +371,56 @@ nav {
 
 footer {
     margin-top: 5%;
+    position: relative;
+    background-color: white;
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.faqMain {
+    position: relative;
+    width: 53%;
+}
+
+.contactWithUs {
+    position: relative;
+    width: 27%;
+}
+
+.footerBlock {
+    position: relative;
+    margin: 1.5% 5% 1.5% 5%;
     text-align: center;
+    line-height: 180%;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+
+.faq {
+    position: relative;
+    display: flex;
+}
+
+.faqBlock {
+    position: relative;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.stick {
+    position: relative;
+    height: 170px;
+    width: 5px;
+    background-color: #EBEBEB;
+    color: #EBEBEB;
+    font-size: 5px;
 }
