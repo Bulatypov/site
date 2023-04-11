@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #EBEBEB;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+    letter-spacing: 1px;
+}
+header {
+    background-color: white;
+    display: flex;
+    position: relative;
+    height: 100px;
+}
+
+.profile {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    border-right: 3px solid #EBEBEB;
+}
+
+.profile-icon {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logoBlock {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.profile-info{
+    float: right;
+    font-size: 20px;
+    position: relative;
+    margin-left: 5%;
+}
+
+
+
+nav {
+    margin-left: 7%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navBlock{
+    position: absolute;
+    width: 75%;
+    margin-left: 25%;
+    height: 100%;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+    font-size: 20px;
+}
+
+main {
+    position: relative;
+    display: flex;
+}
+
+footer {
+    margin-top: 5%;
+    position: relative;
+    background-color: white;
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.faqMain {
+    position: relative;
+    width: 53%;
+}
+
+.contactWithUs {
+    position: relative;
+    width: 27%;
+}
+
+.footerBlock {
+    position: relative;
+    margin: 1.5% 5% 1.5% 5%;
+    text-align: center;
+    line-height: 180%;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+
+.faq {
+    position: relative;
+    display: flex;
+}
+
+.faqBlock {
+    position: relative;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.stick {
+    position: relative;
+    height: 170px;
+    width: 5px;
+    background-color: #EBEBEB;
+    color: #EBEBEB;
+    font-size: 5px;
+}
